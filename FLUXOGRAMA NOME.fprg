@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="FLUXOGRAMA NOME"/>
+        <attribute name="authors" value="DEV"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-02-19 02:19:41 "/>
+        <attribute name="created" value="REVWO0RFVl9TTDAxXzA0OzIwMjYtMDItMTk7IjAyOjA0OjQzICI7MjE4Mg=="/>
+        <attribute name="edited" value="REVWO0RFVl9TTDAxXzA0OzIwMjYtMDItMTk7IjAyOjE5OjQxICI7MjsyMjk1"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nome" type="String" array="False" size=""/>
+            <output expression="&quot;QUAL O SEU NOME?&quot;" newline="True"/>
+            <input variable="nome"/>
+            <output expression="&quot;BEM VINDO(A) &quot;&amp; nome &amp;&quot; ! PRAZER EM TE CONHECER&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

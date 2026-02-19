@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="FLUXOGRAMA SUCESSOR"/>
+        <attribute name="authors" value="DEV"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-02-19 02:50:14 "/>
+        <attribute name="created" value="REVWO0RFVl9TTDAxXzA0OzIwMjYtMDItMTk7IjAyOjQ3OjUyICI7MjE4OQ=="/>
+        <attribute name="edited" value="REVWO0RFVl9TTDAxXzA0OzIwMjYtMDItMTk7IjAyOjUwOjE0ICI7MTsyMjg5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="N&#218;MERO" type="Integer" array="False" size=""/>
+            <output expression="&quot;ME FALE UM N&#218;MERO PRA EU DIZER SEU SUCESSOR&quot;" newline="True"/>
+            <input variable="N&#218;MERO"/>
+            <output expression="N&#218;MERO+1" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
