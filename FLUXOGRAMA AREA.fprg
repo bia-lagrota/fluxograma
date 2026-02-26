@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="FLUXOGRAMA AREA"/>
+        <attribute name="authors" value="DEV"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-02-19 02:58:59 "/>
+        <attribute name="created" value="REVWO0RFVl9TTDAxXzA0OzIwMjYtMDItMTk7IjAyOjUwOjQ1ICI7MjE4NQ=="/>
+        <attribute name="edited" value="REVWO0RFVl9TTDAxXzA0OzIwMjYtMDItMTk7IjAyOjU4OjU5ICI7MTsyMzA2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="BASE" type="Integer" array="False" size=""/>
+            <declare name="ALTURA" type="Integer" array="False" size=""/>
+            <output expression="&quot;DIGITE A BASE DO RETANGULO&quot;" newline="True"/>
+            <input variable="BASE"/>
+            <output expression="&quot;DIGITE A ALTURA&quot;" newline="True"/>
+            <input variable="ALTURA"/>
+            <output expression="BASE*ALTURA" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

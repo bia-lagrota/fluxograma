@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="FLUXOGRAMA VALOR DE"/>
+        <attribute name="authors" value="DEV"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-02-24 03:48:12 "/>
+        <attribute name="created" value="REVWO0RFVl9TTDAxXzA0OzIwMjYtMDItMjQ7IjAzOjQzOjQ3ICI7MjE4Ng=="/>
+        <attribute name="edited" value="REVWO0RFVl9TTDAxXzA0OzIwMjYtMDItMjQ7IjAzOjQ4OjEyICI7MTsyMjkx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="A" type="Real" array="False" size=""/>
+            <declare name="B" type="Real" array="False" size=""/>
+            <declare name="C" type="Real" array="False" size=""/>
+            <declare name="RESULTADO" type="Real" array="False" size=""/>
+            <output expression="&quot;VALOR DE A&quot;" newline="True"/>
+            <input variable="A"/>
+            <output expression="&quot;VALOR DE B&quot;" newline="True"/>
+            <input variable="B"/>
+            <output expression="&quot;VALOR DE C&quot;" newline="True"/>
+            <input variable="C"/>
+            <assign variable="RESULTADO" expression="(a+b)/c"/>
+            <output expression="resultado+resultado" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

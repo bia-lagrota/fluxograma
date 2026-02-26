@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="FLUXOGRAMA FUTEBOL"/>
+        <attribute name="authors" value="DEV"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-02-24 03:43:27 "/>
+        <attribute name="created" value="REVWO0RFVl9TTDAxXzA0OzIwMjYtMDItMjQ7IjAzOjM3OjA4ICI7MjE4Ng=="/>
+        <attribute name="edited" value="REVWO0RFVl9TTDAxXzA0OzIwMjYtMDItMjQ7IjAzOjQzOjI3ICI7MTsyMjky"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="time" type="String" array="False" size=""/>
+            <declare name="vitorias" type="Integer" array="False" size=""/>
+            <declare name="empates" type="Integer" array="False" size=""/>
+            <declare name="total" type="Integer" array="False" size=""/>
+            <output expression="&quot;Qual o seu time?&quot;" newline="True"/>
+            <input variable="time"/>
+            <output expression="&quot;Numero de vitorias&quot;" newline="True"/>
+            <input variable="vitorias"/>
+            <output expression="&quot;Numero de empates&quot;" newline="True"/>
+            <input variable="empates"/>
+            <assign variable="totalpontos" expression="(vitorias*3)+empates"/>
+            <output expression="time" newline="True"/>
+            <output expression="totalpontos" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
